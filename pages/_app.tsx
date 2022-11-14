@@ -33,7 +33,7 @@ const client = createClient({
 })
 
 const fontPoppins = Poppins({
-  weight: "400",
+  weight: ["400", "500", "700"],
 })
 
 export default function App({ Component, pageProps }: AppProps) {
